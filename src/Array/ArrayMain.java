@@ -5,6 +5,9 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
+import static Array.Size.L;
+import static Array.Size.XL;
+
 public class ArrayMain {
 
     public static void main(String[] args){
@@ -12,6 +15,7 @@ public class ArrayMain {
         List<Gift> listOfGift = new ArrayList<>();
 
         Gift darekProMarka = new Gift(101.1,XL,"Tesla");
+        listOfGift.add(darekProMarka);
 
         //anonymni objekt - nikde se nevytvori, ale rovnou schova do Listu
         listOfGift.add(new Gift(5.0,L,"Pastelka"));
