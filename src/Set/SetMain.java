@@ -15,7 +15,7 @@ public class SetMain {
 
         //kontrolovat zda je v Hashsetu
         if (programingLanguage.contains("Python")){
-            System.out.println("umi Pythot");
+            System.out.println("umi Python");
         } else {
             System.out.println("neumi");
         }
